@@ -1,0 +1,13 @@
+* C:\Users\pgask\Desktop\Draft2.asc
+V1 Vi 0 AC 1 0
+XU1 0 N001 N002 N004 Vo LMC660A
+V2 N002 0 8
+V3 N004 0 -8
+R2 N003 Vi 1593
+C1 N001 N003 0.1µ
+R1 N001 0 100k
+R3 Vo N001 7960
+.lib LMC660A.lib
+.ac dec 15 100 100k
+.backanno
+.end
